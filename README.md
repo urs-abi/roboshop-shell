@@ -1,5 +1,5 @@
 # README
 
-# Home Directory - /roboshop-shell/
+# Home Directory - /home/centos/roboshop-shell/
 
-# Print Statement - echo -e "\e[32m  \e[0m"
+# Print Green Statement - echo -e "\e[32m  \e[0m"
