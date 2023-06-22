@@ -9,5 +9,4 @@ sed -i 's/127.0.0.1/0.0.0.0/' /etc/mongod.conf
 
 echo -e "\e[32m Starting MongoDB Service \e[0m"
 systemctl enable mongod &>>/tmp/logfile
-
 systemctl restart mongod &>>/tmp/logfile
