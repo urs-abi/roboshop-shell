@@ -7,7 +7,7 @@ yum install nodejs -y &>>/tmp/logfile
 
 
 echo -e "\e[32m Adding Application User \e[0m"
-cartadd roboshop &>>/tmp/logfile
+useradd roboshop &>>/tmp/logfile
 
 echo -e "\e[32m Creating Application Directory \e[0m"
 rm -rf /app &>>/tmp/logfile
